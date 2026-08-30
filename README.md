@@ -1,166 +1,221 @@
 # 🌐 Cisco IOS Command CheatSheets
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Cisco-IOS-blue?style=for-the-badge&logo=cisco" />
-  <img src="https://img.shields.io/badge/CCNA-Networking-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Made%20with-Knowledge%20%26%20Experience-success?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/Cisco-IOS-blue?style=for-the-badge&logo=cisco" />
+<img src="https://img.shields.io/badge/CCNA-Networking-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Linux-Administration-black?style=for-the-badge&logo=linux" />
+<img src="https://img.shields.io/badge/Kali%20Linux-Pentest-557C94?style=for-the-badge&logo=kalilinux" />
+
 </p>
 
 # 📖 Présentation
 
-Bienvenue dans **Cisco IOS Command CheatSheets**, une collection complète de commandes Cisco IOS destinée aux étudiants, passionnés de réseaux et professionnels souhaitant retrouver rapidement les commandes essentielles pour les **routeurs et commutateurs Cisco**.
+Collection de **cheat sheets et notes personnelles** sur les réseaux, Cisco IOS, Linux et la cybersécurité.
 
-Ce projet a été créé par :
+Créé par :
 
-# 🛡️ Chasseur De Script Kiddies
+**🛡️ Chasseur De Script Kiddies**
 
-> 💡 Réalisé grâce à mes connaissances personnelles en administration réseau, configuration Cisco IOS, routage, commutation et cybersécurité.
+---
 
-L'objectif est de proposer une ressource claire, organisée et accessible permettant de retrouver rapidement les commandes importantes utilisées dans les environnements Cisco.
+# 📚 Contenu
 
-# 🎯 Objectifs du projet
+## 🔀 Cisco IOS — Routeurs
 
-Ce projet a pour but de :
+* Configuration des interfaces
+* Routage statique
+* Routage dynamique
+* OSPF
+* DHCP
+* DHCPv4 / DHCPv6
+* NAT / PAT
+* ACL
+* VLAN / Router-on-a-Stick
+* Routage inter-VLAN
+* HSRP
+* EIGRP
+* RIP
+* Vérification et dépannage
 
-✅ Centraliser les commandes Cisco IOS importantes  
-✅ Faciliter l'apprentissage du réseau et du CCNA  
-✅ Fournir une aide rapide lors des configurations réseau  
-✅ Regrouper les commandes de configuration, vérification et dépannage  
-✅ Partager mes connaissances avec la communauté
+➡️ [📄 Router Commands](./router_commands.md)
 
-# 📚 Contenu disponible
+---
 
-Les commandes sont classées par catégories afin de faciliter la navigation.
+## 🔌 Cisco IOS — Switchs
 
-## 🔀 Routeurs
+* Configuration de base
+* VLAN
+* Trunk
+* DTP
+* Voice VLAN
+* VTP
+* STP
+* Rapid PVST+
+* PortFast
+* BPDU Guard
+* Port Security
+* EtherChannel
+* LACP
+* PAgP
+* Vérification et dépannage
 
-Configuration et administration des routeurs Cisco :
+➡️ [📄 Switch Commands](./switch_commands.md)
 
-- Configuration des interfaces
-- Routage statique
-- Routage dynamique
-- OSPF
-- DHCP
-- NAT/PAT
-- ACL
-- VLAN avec Router-on-a-Stick
-- Routage inter-VLAN
-- Vérifications et diagnostics
+---
 
-➡️ Accéder aux commandes routeur :
+## 🛠️ Configuration initiale Cisco
 
-[📄 Router Commands](./router_commands.md)
+* Désactivation de la recherche DNS
+* CDP / LLDP
+* Configuration de la console
+* Configuration de base
+* Sauvegarde des configurations
 
-## 🔌 Switchs
+➡️ [📄 Basic Initial Config](./basic_initial_config.md)
 
-Configuration et administration des commutateurs Cisco :
+---
 
-- Configuration de base
-- VLAN
-- Trunk
-- STP
-- EtherChannel
-- Port Security
-- DHCP Snooping
-- Vérification réseau
-- Dépannage
+# 🐧 Linux
 
-➡️ Accéder aux commandes switch :
+Documentation consacrée à **Linux et à l'administration système**.
 
-[📄 Switch Commands](./switch_commands.md)
+* Commandes Linux
+* Navigation
+* Fichiers et répertoires
+* Recherche
+* Informations système
+* Utilisateurs
+* Groupes
+* Permissions
+* Processus
+* Services
+* Systemd
+* SSH
+* Gestion des paquets
+* Bash
+* Cron
+* Disques
+* LVM
+* RAID
+* Samba
+* NFS
 
-## 🛠️ Configuration initiale
+➡️ [📄 Linux — Administration système](./linux.md)
 
-Configuration de base recommandée pour tous les appareils Cisco avant toute configuration avancée :
+---
 
-- Désactivation de la recherche DNS
-- Activation de CDP/LLDP
-- Configuration optimisée de la console
-- Sauvegarde automatique des configurations
+# 🐉 Kali Linux
 
-➡️ Accéder à la configuration initiale :
+Notes consacrées à **Kali Linux, la cybersécurité et le pentest**.
 
-[📄 Basic Initial Config](./basic_initial_config.md)
+> ⚠️ **Prérequis :** lire et comprendre la documentation Linux avant d'utiliser cette documentation.
 
-# ⭐ Fonctionnalités
+## 🕵️ Reconnaissance & Énumération
 
-Chaque section contient :
+* Nmap
+* SMB
+* Découverte des hôtes
+* Fingerprinting
+* SNMP
+* DNS
+* DNSRecon
+* HTTP / HTTPS
 
-🏆 **Bonnes pratiques de configuration**
+## 🌐 Analyse réseau
 
-💡 **Conseils importants**
+* Serveur Web Python
+* Montage de partages
+* Tcpdump
+* Wireshark
+* TShark
+* Inspection des paquets
+* TTL Fingerprinting
 
-🔎 **Commandes de vérification**
+## 👤 Utilisateurs & Identifiants
 
-🛠️ **Astuces de dépannage**
+* Énumération des utilisateurs
+* Wordlists
+* Hachage
+* Cryptographie
 
-📌 **Explications simples pour comprendre l'utilisation des commandes**
+## 🌍 Sécurité Web
 
-# 🧠 Pourquoi ce projet ?
+* Énumération Web
+* SQLMap
+* Fuzzing
 
-Ce projet a commencé comme une manière personnelle de regrouper mes connaissances et d'améliorer ma maîtrise de Cisco IOS.
+## 🔎 Vulnérabilités
 
-Avec le temps, il est devenu une véritable documentation permettant de :
+* Recherche d'exploits
+* Searchsploit
+* Compilation C
+* SUID
+* TTY / Shells interactifs
 
-- Réviser efficacement les notions réseau
-- Comprendre le fonctionnement des équipements Cisco
-- Retrouver rapidement une commande spécifique
-- Aider d'autres personnes dans leur apprentissage
+## 🧰 Metasploit
 
-# 📖 Sources et inspirations
+* Metasploit
+* Meterpreter
 
-Les informations présentes dans ce projet sont basées sur :
+## 🌐 Réseau & IPv4
 
-## 🎓 Cisco Networking Academy
+* IPv4
+* Classes IPv4
+* Plages IPv4 privées
+* Sous-réseaux IPv4
+* TTL Fingerprinting
 
-- CCNAv7 : Switching, Routing, and Wireless Essentials
-- CCNAv7 : Enterprise Networking, Security, and Automation
-- CCNA R&S : Introduction to Networks
-- CCNA R&S : Routing and Switching Essentials
+## ⌨️ Références
 
-## 📘 Documentation Cisco
+* Table ASCII
+* Cisco IOS
 
-- Documentation officielle Cisco IOS
-- Guides de configuration Cisco
-- Bonnes pratiques réseau
+➡️ [🛡️ Kali Linux — Notes Cybersécurité & Pentest](./kali_linux.md)
+
+---
+
+# 📖 Sources
+
+* Cisco Networking Academy
+* Documentation officielle Cisco
+* Documentation Linux
+* Documentation des outils utilisés
+* Recherches personnelles
+* Travaux pratiques et expérimentations
+
+---
 
 # 👤 Auteur
 
-## 🛡️ Chasseur De Script Kiddies
+**🛡️ Chasseur De Script Kiddies**
 
-Passionné par :
+🌐 Réseaux
+🐧 Linux
+🔐 Cybersécurité
+🖥️ Infrastructure systèmes
 
-- 🌐 Les réseaux informatiques
-- 🔀 L'administration de systèmes
-- 🔐 La cybersécurité
-- 🖥️ Les infrastructures systèmes
+---
 
-Ce projet a été conçu et développé grâce à mes propres connaissances, recherches et expériences dans le domaine informatique.
+# ⚠️ Utilisation
 
-# 🤝 Contribution
+Les ressources de cybersécurité et de pentest doivent uniquement être utilisées :
 
-Les suggestions, corrections et améliorations sont les bienvenues.
+* dans des environnements de laboratoire ;
+* sur des CTF ;
+* sur vos propres systèmes ;
+* ou avec une autorisation explicite.
 
-Si vous trouvez une erreur ou souhaitez proposer une amélioration :
+---
 
-⭐ Ouvrez une issue  
-⭐ Proposez une modification  
-⭐ Partagez vos connaissances avec la communauté
+# 🗺️ Roadmap
 
-# ⚠️ Note importante
-
-Ce projet n'est pas une documentation officielle Cisco.
-
-Il s'agit d'un support d'apprentissage créé par :
-
-> **Chasseur De Script Kiddies**
-
-dans le but de partager des connaissances et faciliter l'apprentissage des réseaux Cisco.
+➡️ [🗺️ Consulter la roadmap](./ROADMAP.md)
 
 <p align="center">
 
-🚀 **Apprendre. Comprendre. Configurer. Dépanner.**
+🚀 **Apprendre. Comprendre. Configurer. Dépanner. Expérimenter.**
 
-Créé avec passion par **Chasseur De Script Kiddies**
+**Chasseur De Script Kiddies**
 
 </p>
